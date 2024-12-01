@@ -4,25 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example Website</title>
-    <link rel="stylesheet" href="styles/global.css">
+    <link rel="styles" href="styles/global.css">
+    <link rel="styles" href="styles/header.css">
+    <link rel="styles" href="styles/main-content.css">
+    <link rel="styles" href="styles/footer.css">
 </head>
 <body>
     <header>
-        <!-- Header content will be imported from header.html -->
-        <div w3-include-html="header.html"></div>
+        <div class="logo">
+            <h2 class="header-logo-text">Header Logo</h2>
+        </div>
+        <nav>
+            <a href="#" class="header-link-text">header link one</a>
+            <a href="#" class="header-link-text">header link two</a>
+            <a href="#" class="header-link-text">header link three</a>
+        </nav>
     </header>
-
     <main>
-        <!-- Main content will be imported from maincontent.html -->
-        <div w3-include-html="maincontent.html"></div>
+        <section class="hero">
+            <!-- "This website is awesome" content goes here -->
+        </section>
+
+        <section class="random-info">
+            <!-- "Some random information" section goes here -->
+        </section>
+
+        <section class="quote">
+            <!-- "Some random information" section goes here -->
+        </section>
+
+        <section class="sign-up">
+            <!-- "Some random information" section goes here -->
+        </section>
     </main>
 
     <footer>
-        <!-- Footer content will be imported from footer.html -->
-        <div w3-include-html="footer.html"></div>
+        <div class="copyright">
+           <a>copyright stuff</a>
+        </div>
     </footer>
-
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
-    <script>w3.includeHTML();</script>
 </body>
 </html>
