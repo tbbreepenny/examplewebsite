@@ -45,11 +45,12 @@ To get started with this project, follow these steps to clone the repository and
 
 ```bash
 git clone https://github.com/your-username/example-website.git
-
+```
 ### 2. Navigate to the project directory:
 
 ```bash
 cd example-website
+```
 
 ### 3. Open the index.html file
 Open the index.html file:
