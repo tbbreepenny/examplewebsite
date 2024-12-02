@@ -37,3 +37,16 @@ nav .header-link-text {
     nav .header-link-text:hover {
         color: #F9FAF8;
     }
+
+    /* footer section */
+
+footer {
+    background-color: #1F2937;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 14px;
+}
